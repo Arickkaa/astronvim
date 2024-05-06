@@ -19,3 +19,4 @@ vim.filetype.add {
 local map = vim.keymap.set
 
 map({ "n", "i" }, "<F12>", "<cmd>w<cr><esc><cmd>exe winheight(0)/2.'split' | term cargo run <CR>i")
+map({ "n" }, "T", "<cmd>w<cr><esc><cmd>exe winheight(0)/2.'split' | term cargo test <CR>i")
