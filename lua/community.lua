@@ -5,7 +5,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
