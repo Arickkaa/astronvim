@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.utility.noice-nvim" },
