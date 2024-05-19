@@ -19,3 +19,8 @@ require "lazy_setup"
 require "polish"
 
 vim.opt.swapfile = false
+
+-- neovide config
+vim.o.guifont = "JetBrainsMono Nerd Font:h20"
+vim.g.neovide_transparency = 0.8
+vim.g.neovide_window_blurred = true
